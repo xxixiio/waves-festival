@@ -10,7 +10,7 @@ import data from "../consts/lineup.json";
       data.map((artist) => (
         <Artist
           name={artist.name}
-          image={artist.image}
+          image={"/waves-festival" + artist.image}
           className="lineup__artists"
         />
       ))
