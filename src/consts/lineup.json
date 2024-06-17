@@ -1,0 +1,111 @@
+[
+    {
+      "name": "Kanye West (Ye)",
+      "image": "/images/lineup/kanye-west.jpg",
+      "genre": "Hip-Hop",
+      "day": 10
+    },
+    {
+      "name": "Drake",
+      "image": "/images/lineup/drake.jpg",
+      "genre": "Hip-Hop",
+      "day": 10
+    },
+    {
+      "name": "Travis Scott",
+      "image": "/images/lineup/travis-scott.jpg",
+      "genre": "Hip-Hop",
+      "day": 11
+    },
+    {
+      "name": "SZA",
+      "image": "/images/lineup/sza.webp",
+      "genre": "R&B",
+      "day": 11
+    },
+    {
+      "name": "Summer Walker",
+      "image": "/images/lineup/summer-walker.jpg",
+      "genre": "R&B",
+      "day": 12
+    },
+    {
+      "name": "Lee Hi",
+      "image": "/images/lineup/lee-hi.jpg",
+      "genre": "R&B",
+      "day": 12
+    },
+    {
+      "name": "J. Cole",
+      "image": "/images/lineup/j-cole.jpg",
+      "genre": "Hip-Hop",
+      "day": 10
+    },
+    {
+      "name": "The Weeknd",
+      "image": "/images/lineup/the-weeknd.jpg",
+      "genre": "R&B",
+      "day": 10
+    },
+    {
+      "name": "Kendrick Lamar",
+      "image": "/images/lineup/kendrick-lamar.jpg",
+      "genre": "Hip-Hop",
+      "day": 11
+    },
+    {
+      "name": "A$AP Rocky",
+      "image": "/images/lineup/asap-rocky.jpg",
+      "genre": "Hip-Hop",
+      "day": 11
+    },
+    {
+      "name": "Alicia Keys",
+      "image": "/images/lineup/alicia-keys.jpg",
+      "genre": "R&B",
+      "day": 12
+    },
+    {
+      "name": "H.E.R.",
+      "image": "/images/lineup/her.jpg",
+      "genre": "R&B",
+      "day": 12
+    },
+    {
+      "name": "Lil Wayne",
+      "image": "/images/lineup/lil-wayne.jpg",
+      "genre": "Hip-Hop",
+      "day": 10
+    },
+    {
+      "name": "Doja Cat",
+      "image": "/images/lineup/doja-cat.jpg",
+      "genre": "Hip-Hop",
+      "day": 10
+    },
+    {
+      "name": "Bruno Mars",
+      "image": "/images/lineup/bruno-mars.jpg",
+      "genre": "R&B",
+      "day": 11
+    },
+    {
+      "name": "Jhene Aiko",
+      "image": "/images/lineup/jhene-aiko.jpg",
+      "genre": "R&B",
+      "day": 11
+    },
+    {
+      "name": "Future",
+      "image": "/images/lineup/future.jpg",
+      "genre": "Hip-Hop",
+      "day": 12
+    },
+    {
+      "name": "Ty Dolla Sign",
+      "image": "/images/lineup/ty-dolla-sign.jpg",
+      "genre": "R&B",
+      "day": 12
+    }
+  ]
+  

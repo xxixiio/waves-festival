@@ -1,0 +1,39 @@
+---
+import Artist from "../components/Artist.astro";
+import data from "../consts/lineup.json";
+---
+
+<section class="lineup__container">
+  <h2 class="lineup__title">Line Up</h2>
+  <div class="lineup__artists">
+    {
+      data.map((artist) => (
+        <Artist
+          name={artist.name}
+          image={artist.image}
+          className="lineup__artists"
+        />
+      ))
+    }
+  </div>
+</section>
+
+<style>
+  .lineup__container {
+    padding: 0 20%;
+    margin: 80px 0;
+  }
+
+  .lineup__title {
+    text-align: center;
+    font-size: 40px;
+    margin: 25px 0;
+  }
+
+  .lineup__artists {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 20px;
+  }
+</style>

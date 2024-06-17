@@ -1,0 +1,36 @@
+---
+const { name, image, className, ...props} = Astro.props;
+---
+
+<a href="" class:list={"artist__container " + className} {...props}>
+    <img class="artist__image" src={image} alt="">
+    <p class="artist__name">{name}</p>
+</a>
+<style>
+    .artist__container {
+        width: 30%;
+        font-size: 30px;
+        font-weight: bold;
+        border-radius: var(--border-radius);
+        overflow: hidden; 
+        transition: all .2s ease-in;
+
+        &:hover > .artist__image {
+            scale: 1.1;
+        }
+    }
+
+    .artist__image {
+        width: 100%;
+        aspect-ratio: 1 / 1; 
+        object-fit: cover;
+        border-radius: var(--border-radius);
+        mask-image: linear-gradient(to top, rgba(0,0,0,0) 0%,rgba(0, 0, 0, 0.89) 50%);
+        transition: all .1s ease-in;
+    }
+
+    .artist__name {
+        position: relative;
+        top: -78px;
+    }
+</style>
