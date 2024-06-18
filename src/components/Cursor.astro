@@ -46,7 +46,7 @@
       this.dotSize = this.$dot.offsetWidth;
       this.outlineSize = this.$outline.offsetWidth;
 
-      if (window.innerWidth < 1024) {
+      if (window.innerWidth > 1024) {
         this.setupEventListeners();
         this.animateDotOutline();
       } else {
