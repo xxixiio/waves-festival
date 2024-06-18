@@ -66,4 +66,10 @@ import Button from "../components/Button.astro"
   .info__element {
     flex: 0 0 30%;
   }
+
+  @media only screen and (max-width: 768px) {
+    .info__elements {
+      flex-direction: column;
+    }
+  }
 </style>

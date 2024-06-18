@@ -2,6 +2,13 @@
   <div class="header__content">
     <a href="" class="header__title">Waves Festival | 10-12 July 2024</a>
   </div>
+  <button class="header__button" id="menu-button">
+    <img
+      src="/waves-festival/icons/menu.svg"
+      class="header__menu-icon"
+      alt=""
+    />
+  </button>
   <nav class="header__links">
     <a href="">Line Up</a>
     <a href="">Tickets</a>
@@ -32,4 +39,71 @@
       text-decoration: underline;
     }
   }
+
+  .header__button {
+    width: 25px;
+    height: 25px;
+  }
+
+  .header__menu-icon {
+    display: none;
+    width: 25px;
+
+    &:focus > .header__links {
+      display: block;
+    }
+  }
+
+  @media only screen and (max-width: 768px) {
+    .header__container {
+      padding: 15px;
+    }
+
+    .header__title {
+      font-size: 15px;
+    }
+    .header__links {
+      position: absolute;
+      width: 100%;
+      bottom: -150px;
+      left: 0;
+      background: linear-gradient(to bottom, #02020298 70%, transparent);
+      padding-top: 125px;
+      padding-bottom: 20px;
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      z-index: -10;
+      opacity: 0;
+      visibility: hidden;
+      transform: translateY(-200px);
+      transition:
+        opacity 0.5s ease-in-out,
+        visibility 0s linear 0.3s,
+        transform 0.5s ease-in-out;
+    }
+
+    .header__links--show {
+      opacity: 1;
+      visibility: visible;
+      transform: translateY(0);
+      transition:
+        opacity 0.5s ease-in-out,
+        visibility 0s linear,
+        transform 0.5s ease-in-out;
+    }
+
+    .header__menu-icon {
+      display: block;
+    }
+  }
 </style>
+
+<script>
+  const $menuButton = document.getElementById("menu-button");
+  const headerLinks = document.getElementsByClassName("header__links")[0];
+
+  $menuButton.addEventListener("click", () => {
+    headerLinks.classList.toggle("header__links--show");
+  });
+</script>
