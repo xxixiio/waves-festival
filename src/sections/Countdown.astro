@@ -68,7 +68,7 @@
       dd = String(today.getDate()).padStart(2, "0"),
       mm = String(today.getMonth() + 1).padStart(2, "0"),
       yyyy = today.getFullYear(),
-      eventDate = "07/10/2024";
+      eventDate = "07/10/" + (new Date().getFullYear() + 1);
 
     let formattedToday = mm + "/" + dd + "/" + yyyy;
 
