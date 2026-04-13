@@ -1,6 +1,6 @@
 [
     {
-      "name": "Kanye West (Ye)",
+      "name": "Ye",
       "image": "/images/lineup/kanye-west.jpg",
       "genre": "Hip-Hop",
       "day": 10
@@ -30,8 +30,8 @@
       "day": 12
     },
     {
-      "name": "Lee Hi",
-      "image": "/images/lineup/lee-hi.jpg",
+      "name": "Brent Faiyaz",
+      "image": "/images/lineup/brent-faiyaz.jpg",
       "genre": "R&B",
       "day": 12
     },

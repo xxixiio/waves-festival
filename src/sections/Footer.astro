@@ -17,7 +17,7 @@
         ><img src="/waves-festival/icons/twitter.svg" alt="" class="footer__icon" /></a>
     </li>
   </ul>
-  <p class="footer__copyright">© 2024 | Waves Project</p>
+  <p class="footer__copyright">© <span id="footer-year"></span> | Waves Project</p>
 </footer>
 
 <style>
@@ -32,7 +32,8 @@
 
   .footer__social {
     display: flex;
-    gap: 10px;
+    margin-top: .5rem;
+    gap: 1rem;
   }
 
   .footer__icon {
@@ -45,3 +46,7 @@
     color: var(--font-color2);
   }
 </style>
+
+<script>
+  document.getElementById("footer-year").innerText = (new Date().getFullYear()).toString();
+</script>

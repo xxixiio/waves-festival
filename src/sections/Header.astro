@@ -1,6 +1,6 @@
 <header class="header__container">
   <div class="header__content">
-    <a href="" class="header__title">Waves Festival | 10-12 July {new Date().getFullYear() + 1}</a>
+    <a href="" class="header__title">Waves Festival | 10-12 July <span id="year"></span></a>
   </div>
   <button class="header__button" id="menu-button">
     <img
@@ -106,4 +106,6 @@
   $menuButton.addEventListener("click", () => {
     headerLinks.classList.toggle("header__links--show");
   });
+
+  document.getElementById("year").innerText = (new Date().getFullYear() + 1).toString();
 </script>
